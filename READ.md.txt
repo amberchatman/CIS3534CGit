@@ -1,0 +1,4 @@
+##READ.md for CIS3534CGit
+##The following expalains the role of the code
+
+The `main()` function orchestrates the primary logic of the script. It begins by loading data from JSON files containing information about routers and switches. Then, it iterates through a loop where users are prompted to select a device for updating its IP address. Within this loop, the script also prompts users to enter a valid IP address for the selected device. Once valid input is received, the script updates the device's IP address in memory and records the update in a dictionary. After all updates are complete or if the user decides to quit, the script provides a summary of the operation, including the number of devices updated. Finally, it writes the updated device information to a JSON file named 'updated.txt' and records any invalid IP addresses attempted in another JSON file named 'invalid.txt'.
